@@ -1,0 +1,43 @@
+.body-container {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    margin: 5px;
+}
+.header {
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+    background-color: #444444;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+.left-column, .right-column {
+    width: 12.5%;
+    height: 100%;
+    background-color:  #d8d8d8;
+}
+.center-column {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+    background-color: white;
+}
+
+.white-box {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    border: 1px solid black;
+}

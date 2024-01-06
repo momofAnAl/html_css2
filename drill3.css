@@ -1,0 +1,17 @@
+div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+#child-div1 {
+    display: inline-block;
+    background-color: black;
+    margin: 50px 25px 0px 50px;
+}
+
+#child-div2 {
+    display: inline-block;
+    background-color: black;
+    margin: 50px 0px 0px 25px;
+}
